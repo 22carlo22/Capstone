@@ -9,8 +9,4 @@
         android:id="@+id/item_addR"
         android:icon="@drawable/baseline_edit_calendar_24"
         android:title="New Reservation" />
-    <item
-        android:id="@+id/item_colleague"
-        android:icon="@drawable/baseline_emoji_people_24"
-        android:title="Find Colleague" />
 </menu>

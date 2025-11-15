@@ -3,13 +3,25 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_boards">
+    app:startDestination="@+id/nav_projects">
 
     <fragment
-        android:id="@+id/nav_boards"
-        android:name="com.example.myapplication.ui.boards.BoardsFragment"
-        android:label="Boards"
-        tools:layout="@layout/fragment_boards" />
+        android:id="@+id/nav_projects"
+        android:name="com.example.myapplication.ui.projects.ProjectsFragment"
+        android:label="Projects"
+        tools:layout="@layout/fragment_projects" />
+
+    <fragment
+        android:id="@+id/nav_employees"
+        android:name="com.example.myapplication.ui.employees.EmployeesFragment"
+        android:label="Employees"
+        tools:layout="@layout/fragment_employees" />
+
+    <fragment
+        android:id="@+id/nav_calendar"
+        android:name="com.example.myapplication.ui.calendar.CalendarFragment"
+        android:label="Calendar"
+        tools:layout="@layout/fragment_calendar" />
 
     <fragment
         android:id="@+id/nav_reservation"
@@ -18,10 +30,10 @@
         tools:layout="@layout/fragment_reservation" />
 
     <fragment
-        android:id="@+id/nav_notification"
-        android:name="com.example.myapplication.ui.notification.NotificationFragment"
-        android:label="Notifications"
-        tools:layout="@layout/fragment_notification" />
+        android:id="@+id/nav_announcements"
+        android:name="com.example.myapplication.ui.Announce.AnnouncementFragment"
+        android:label="Announcements"
+        tools:layout="@layout/fragment_announcement" />
 
     <fragment
         android:id="@+id/nav_settings"
